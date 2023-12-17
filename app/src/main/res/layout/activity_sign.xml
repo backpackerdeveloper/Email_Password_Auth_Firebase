@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".signActivity">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create New Account"
+        android:layout_gravity="center"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:visibility="visible"
+        android:layout_centerInParent="true"
+        android:id="@+id/progrssBar"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        app:lottie_rawRes="@raw/login"
+        android:layout_gravity="center"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+    <EditText
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:id="@+id/emailet"/>
+
+    <EditText
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:id="@+id/passet"/>
+
+    <EditText
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Paaword"
+        android:id="@+id/confrimpasset"/>
+
+    <Button
+        android:id="@+id/signbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/loginpagebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account, Login Here"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"/>
+
+
+</LinearLayout>

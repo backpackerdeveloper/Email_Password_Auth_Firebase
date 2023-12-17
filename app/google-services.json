@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "14133222662",
+    "project_id": "email-firsebase-auth",
+    "storage_bucket": "email-firsebase-auth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14133222662:android:f861bbcb21f7e388ee9287",
+        "android_client_info": {
+          "package_name": "com.shubhamtripz.emailfirsebaseauth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCObjnoe5jXWPOhJKIIAsoLamQANY2lyiw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
